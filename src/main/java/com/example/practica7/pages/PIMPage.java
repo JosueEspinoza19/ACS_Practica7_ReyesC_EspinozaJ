@@ -19,11 +19,17 @@ public class PIMPage {
     }
 
     public void searchEmployee(String name) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(employeeNameInput)).sendKeys(name);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(employeeNameInput)).clear();
+        driver.findElement(employeeNameInput).sendKeys(name);
         driver.findElement(searchButton).click();
     }
 
     public boolean areResultsDisplayed() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(tableResultsContainer)).isDisplayed();
+    }
+
+    public boolean isEmployeeShownInResults(String name) {
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(tableResultsContainer, name));
+        return driver.findElement(tableResultsContainer).getText().contains(name);
     }
 }
