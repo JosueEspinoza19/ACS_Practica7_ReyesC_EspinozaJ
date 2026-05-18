@@ -4,4 +4,4 @@
 > Josue Espinoza Juarez <br>
 > Jesus Alonso Reyes Castro
 >
-> 🎥 **[Clic aquí para ver el video de la explicación ]([PEGA_AQUÍ_TU_ENLACE_DE_DRIVE](https://drive.google.com/file/d/14JWuViTY1aqgxzhZlCqdVWjIwUhSgJA1/view?usp=sharing))**
+> 🎥 **[Clic aquí para ver el video de la explicación ](https://drive.google.com/file/d/14JWuViTY1aqgxzhZlCqdVWjIwUhSgJA1/view?usp=sharing)**
